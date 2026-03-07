@@ -46,4 +46,4 @@ def leave_eval(labels, features, feature_subset):
 def default_rater(labels):
 
     counts = Counter(labels)
-    return max(counts.valvues())/len(labels)
+    return max(counts.values()) / len(labels)

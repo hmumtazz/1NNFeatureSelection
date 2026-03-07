@@ -7,7 +7,7 @@ def load_data(filename):
 
     with open (filename, "r") as f:
         for line in f:
-            parts = line.strip().split
+            parts = line.strip().split()
             if not parts:
                 continue
             labels.append(float(parts[0]))
