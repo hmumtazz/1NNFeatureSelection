@@ -75,7 +75,7 @@ def backward_elimination(labels, features, num_features):
     best_overall_set = set(current_set)
     prev_best_accuracy = all_accuracy
 
-    print("start search.\n")
+    print("Beginning search.\n")
 
     for level in range(num_features - 1):
         best_feature_to_remove = None
